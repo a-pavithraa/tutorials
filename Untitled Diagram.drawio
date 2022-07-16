@@ -1,29 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T12:27:34.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7ljnQNeVAgQfG1fzoFiB" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-16T15:25:59.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HagZTDTTr-q9TpdASRsk" version="20.1.1" type="github">
   <diagram id="aAfQPoBQMi6JrCPyjAyX" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-9" value="Container" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="70" y="50" width="600" height="300" as="geometry" />
+        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-9" value="Microservices" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="140" y="370" width="600" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-1" value="User Profile Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EwMfzWcEn_94j8ixZ7ZM-9">
+        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-1" value="User Profile Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="EwMfzWcEn_94j8ixZ7ZM-9" vertex="1">
           <mxGeometry x="10" y="40" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-15" value="Cart Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EwMfzWcEn_94j8ixZ7ZM-9">
+        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-15" value="Cart Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="EwMfzWcEn_94j8ixZ7ZM-9" vertex="1">
           <mxGeometry x="190" y="40" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-14" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EwMfzWcEn_94j8ixZ7ZM-9">
+        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-14" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="EwMfzWcEn_94j8ixZ7ZM-9" vertex="1">
           <mxGeometry x="390" y="40" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-13" value="Inventory Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EwMfzWcEn_94j8ixZ7ZM-9">
-          <mxGeometry x="20" y="160" width="170" height="80" as="geometry" />
+        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-13" value="Inventory Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="EwMfzWcEn_94j8ixZ7ZM-9" vertex="1">
+          <mxGeometry x="10" y="130" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-12" value="User Profile Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EwMfzWcEn_94j8ixZ7ZM-9">
-          <mxGeometry x="200" y="160" width="170" height="80" as="geometry" />
+        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-12" value="Order Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="EwMfzWcEn_94j8ixZ7ZM-9" vertex="1">
+          <mxGeometry x="200" y="130" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-11" value="User Profile Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EwMfzWcEn_94j8ixZ7ZM-9">
-          <mxGeometry x="410" y="150" width="170" height="80" as="geometry" />
+        <mxCell id="EwMfzWcEn_94j8ixZ7ZM-11" value="Catalogue Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="EwMfzWcEn_94j8ixZ7ZM-9" vertex="1">
+          <mxGeometry x="400" y="130" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aIY75ANo8Wsx8e-Df4wM-10" value="Streaming Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EwMfzWcEn_94j8ixZ7ZM-9">
+          <mxGeometry x="200" y="220" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aIY75ANo8Wsx8e-Df4wM-12" value="Presentation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="90" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aIY75ANo8Wsx8e-Df4wM-13" value="Web&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="230" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aIY75ANo8Wsx8e-Df4wM-14" value="Persistence" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="140" y="720" width="600" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="aIY75ANo8Wsx8e-Df4wM-15" value="Media Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aIY75ANo8Wsx8e-Df4wM-14">
+          <mxGeometry x="10" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aIY75ANo8Wsx8e-Df4wM-16" value="No SQL DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aIY75ANo8Wsx8e-Df4wM-14">
+          <mxGeometry x="190" y="40" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aIY75ANo8Wsx8e-Df4wM-17" value="SQL DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aIY75ANo8Wsx8e-Df4wM-14">
+          <mxGeometry x="390" y="40" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
